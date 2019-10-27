@@ -1,0 +1,982 @@
+FILE DEBUG 20180112 15:56:13.064 App coin_core start
+FILE INFO  20180112 15:56:13.099 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 15:56:13.103 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 15:56:13.113 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 15:56:13.330 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 15:56:13.333 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:56:13.334 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 15:56:13.335 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 15:56:13.335 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:56:13.335 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 15:56:13.335 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 15:56:13.335 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 15:56:13.343 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 15:56:13.345 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 15:56:13.347 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 15:56:13.347 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 15:56:13.347 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 15:56:13.347 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 15:56:13.347 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 15:56:13.347 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 15:56:13.347 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 15:56:13.347 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE DEBUG 20180112 15:56:13.348 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE INFO  20180112 15:56:13.348 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 15:56:13.348 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 15:56:13.348 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 15:56:13.348 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE DEBUG 20180112 15:56:13.348 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE INFO  20180112 15:56:13.348 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 15:56:13.348 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 15:56:13.348 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 15:56:13.348 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE DEBUG 20180112 15:56:13.348 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE INFO  20180112 15:56:13.348 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 15:56:13.348 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 15:56:13.349 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 15:56:13.349 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE DEBUG 20180112 15:56:13.349 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 15:56:13.349 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180112 15:56:13.349 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 15:56:13.349 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 15:56:13.349 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE DEBUG 20180112 15:56:13.349 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE INFO  20180112 15:56:13.349 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 15:56:13.349 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 15:56:13.349 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 15:56:13.350 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE INFO  20180112 15:56:13.350 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 15:56:13.350 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 15:56:13.350 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 15:56:13.350 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 15:56:13.350 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 15:56:13.350 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180112 15:56:13.350 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE INFO  20180112 15:56:13.350 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 15:56:13.350 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 15:56:13.351 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 15:56:13.351 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 15:56:13.351 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 15:56:13.351 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 15:56:13.351 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 15:56:13.351 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 15:56:13.351 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 15:56:13.351 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 15:56:13.351 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 15:56:13.351 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 15:56:13.352 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 15:56:13.352 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 15:56:13.352 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 15:56:13.352 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 15:56:13.352 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 15:56:13.863 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:13.863 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:13.863 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:13.863 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:14.136 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:14.137 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:14.137 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:14.137 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:14.425 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:14.426 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:14.426 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:14.426 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:14.715 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:14.716 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:14.716 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:14.716 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:14.993 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:14.993 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:14.996 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:14.996 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:15.271 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:15.272 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:15.272 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:15.272 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:15.547 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:15.547 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:15.547 CoinStatusCollector QTUM result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:15.547 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:15.818 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:15.819 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:15.819 CoinStatusCollector EOS result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:15.819 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:16.095 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:16.095 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:16.095 CoinStatusCollector DASH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:16.095 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:16.371 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:16.371 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:16.371 CoinStatusCollector ETC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:16.371 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:16.647 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:16.647 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:16.647 CoinStatusCollector BTG result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:16.647 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:16.919 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:16.920 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:16.920 CoinStatusCollector BTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:56:16.920 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:56:59.062 App coin_core start
+FILE INFO  20180112 15:56:59.098 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 15:56:59.104 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 15:56:59.114 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 15:56:59.327 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 15:56:59.329 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:56:59.331 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 15:56:59.331 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 15:56:59.331 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:56:59.331 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 15:56:59.332 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 15:56:59.332 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 15:56:59.346 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 15:56:59.349 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.350 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 15:56:59.350 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 15:56:59.351 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE INFO  20180112 15:56:59.351 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 15:56:59.351 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.351 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 15:56:59.351 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 15:56:59.351 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE DEBUG 20180112 15:56:59.351 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE INFO  20180112 15:56:59.351 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 15:56:59.352 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 15:56:59.352 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 15:56:59.352 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE DEBUG 20180112 15:56:59.352 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE INFO  20180112 15:56:59.352 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 15:56:59.352 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 15:56:59.352 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 15:56:59.353 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 15:56:59.353 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 15:56:59.353 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.353 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 15:56:59.353 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 15:56:59.353 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE DEBUG 20180112 15:56:59.353 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE INFO  20180112 15:56:59.353 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 15:56:59.354 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 15:56:59.354 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 15:56:59.354 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE DEBUG 20180112 15:56:59.354 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE INFO  20180112 15:56:59.354 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 15:56:59.354 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 15:56:59.354 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 15:56:59.355 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE INFO  20180112 15:56:59.355 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 15:56:59.355 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.355 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 15:56:59.355 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 15:56:59.355 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE DEBUG 20180112 15:56:59.355 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE INFO  20180112 15:56:59.355 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 15:56:59.356 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 15:56:59.356 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 15:56:59.356 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180112 15:56:59.356 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE INFO  20180112 15:56:59.356 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 15:56:59.356 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 15:56:59.356 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE DEBUG 20180112 15:56:59.357 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 15:56:59.357 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 15:56:59.357 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.357 ManagedThreadFactory ManagedThreadFactory.getThread() id=28
+FILE DEBUG 20180112 15:56:59.357 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=28
+FILE DEBUG 20180112 15:56:59.358 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE INFO  20180112 15:56:59.358 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 15:56:59.358 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE DEBUG 20180112 15:56:59.358 ManagedThreadFactory ManagedThreadFactory.getThread() id=29
+FILE DEBUG 20180112 15:56:59.358 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=29
+FILE DEBUG 20180112 15:56:59.358 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 15:56:59.359 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 15:56:59.374 ManagedThreadFactory ManagedThreadFactory.getThread() id=30
+FILE DEBUG 20180112 15:56:59.374 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=30
+FILE INFO  20180112 15:56:59.377 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 15:56:59.917 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:56:59.917 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:56:59.917 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE DEBUG 20180112 15:57:33.363 App coin_core start
+FILE INFO  20180112 15:57:33.402 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 15:57:33.407 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 15:57:33.419 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 15:57:33.640 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 15:57:33.642 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:57:33.643 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 15:57:33.643 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 15:57:33.644 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:57:33.644 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 15:57:33.644 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 15:57:33.644 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 15:57:33.662 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 15:57:33.665 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.667 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 15:57:33.667 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 15:57:33.667 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 15:57:33.667 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 15:57:33.667 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 15:57:33.668 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 15:57:33.668 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 15:57:33.668 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE INFO  20180112 15:57:33.668 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 15:57:33.668 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.668 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 15:57:33.668 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 15:57:33.669 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE INFO  20180112 15:57:33.669 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 15:57:33.669 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.669 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 15:57:33.669 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 15:57:33.669 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 15:57:33.669 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 15:57:33.669 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.670 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 15:57:33.670 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 15:57:33.670 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE INFO  20180112 15:57:33.670 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 15:57:33.670 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.670 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 15:57:33.670 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 15:57:33.671 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE INFO  20180112 15:57:33.671 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 15:57:33.671 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.671 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 15:57:33.671 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 15:57:33.671 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE INFO  20180112 15:57:33.671 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 15:57:33.671 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.672 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 15:57:33.672 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 15:57:33.672 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE DEBUG 20180112 15:57:33.672 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE INFO  20180112 15:57:33.672 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 15:57:33.672 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 15:57:33.672 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 15:57:33.673 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE INFO  20180112 15:57:33.673 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 15:57:33.673 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE DEBUG 20180112 15:57:33.673 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 15:57:33.673 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE DEBUG 20180112 15:57:33.673 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE DEBUG 20180112 15:57:33.674 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE INFO  20180112 15:57:33.674 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 15:57:33.674 ManagedThreadFactory ManagedThreadFactory.getThread() id=28
+FILE DEBUG 20180112 15:57:33.674 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=28
+FILE DEBUG 20180112 15:57:33.674 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 15:57:33.674 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 15:57:33.674 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 15:57:33.675 ManagedThreadFactory ManagedThreadFactory.getThread() id=29
+FILE DEBUG 20180112 15:57:33.675 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=29
+FILE DEBUG 20180112 15:57:33.675 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 15:57:33.675 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 15:57:33.686 ManagedThreadFactory ManagedThreadFactory.getThread() id=30
+FILE DEBUG 20180112 15:57:33.689 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=30
+FILE INFO  20180112 15:57:33.689 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 15:57:34.273 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:34.273 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:34.273 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE DEBUG 20180112 15:57:50.683 App coin_core start
+FILE INFO  20180112 15:57:50.713 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 15:57:50.718 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 15:57:50.728 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 15:57:50.908 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 15:57:50.910 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:57:50.911 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 15:57:50.912 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 15:57:50.912 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:57:50.912 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 15:57:50.912 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 15:57:50.912 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 15:57:50.917 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 15:57:50.918 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 15:57:50.919 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 15:57:50.919 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 15:57:50.919 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 15:57:50.919 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 15:57:50.919 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 15:57:50.919 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 15:57:50.920 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 15:57:50.920 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE DEBUG 20180112 15:57:50.920 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE INFO  20180112 15:57:50.920 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 15:57:50.920 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 15:57:50.920 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 15:57:50.920 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE DEBUG 20180112 15:57:50.920 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE INFO  20180112 15:57:50.920 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 15:57:50.920 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 15:57:50.920 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 15:57:50.921 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 15:57:50.921 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 15:57:50.923 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 15:57:50.923 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 15:57:50.923 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 15:57:50.923 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE DEBUG 20180112 15:57:50.923 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE INFO  20180112 15:57:50.923 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 15:57:50.924 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE DEBUG 20180112 15:57:50.924 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE INFO  20180112 15:57:50.924 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 15:57:50.924 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE DEBUG 20180112 15:57:50.924 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE INFO  20180112 15:57:50.924 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 15:57:50.924 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 15:57:50.925 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 15:57:50.925 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 15:57:50.925 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 15:57:50.925 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 15:57:50.925 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 15:57:50.925 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180112 15:57:50.925 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE INFO  20180112 15:57:50.925 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 15:57:50.925 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 15:57:50.925 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 15:57:50.925 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 15:57:50.926 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 15:57:50.926 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 15:57:50.926 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 15:57:50.926 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 15:57:50.926 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 15:57:50.926 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 15:57:50.926 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 15:57:50.926 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 15:57:50.926 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 15:57:50.926 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 15:57:50.926 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 15:57:50.927 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 15:57:50.927 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 15:57:50.927 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 15:57:51.434 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:51.434 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:51.435 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:51.435 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:51.726 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:51.726 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:51.726 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:51.726 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:52.015 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:52.015 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:52.015 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:52.015 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:52.306 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:52.306 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:52.306 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:52.306 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:52.583 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:52.583 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:52.583 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:52.584 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:52.867 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:52.867 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:52.867 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:52.868 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:53.161 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:53.162 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:53.162 CoinStatusCollector QTUM result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:53.162 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:53.438 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:53.438 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:53.438 CoinStatusCollector EOS result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:53.439 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:53.738 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:53.738 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:53.738 CoinStatusCollector DASH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:53.738 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:54.038 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:54.038 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:54.038 CoinStatusCollector ETC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:54.038 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:54.330 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:54.330 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:54.330 CoinStatusCollector BTG result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:54.330 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:57:54.608 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:57:54.609 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:57:54.609 CoinStatusCollector BTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:57:54.609 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:12.331 App coin_core start
+FILE INFO  20180112 15:59:12.360 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 15:59:12.363 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 15:59:12.373 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 15:59:12.556 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 15:59:12.557 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:59:12.558 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 15:59:12.559 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 15:59:12.559 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 15:59:12.559 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 15:59:12.559 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 15:59:12.559 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 15:59:12.564 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 15:59:12.565 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.566 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 15:59:12.566 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 15:59:12.566 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 15:59:12.566 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 15:59:12.566 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 15:59:12.566 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 15:59:12.566 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 15:59:12.567 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE INFO  20180112 15:59:12.567 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 15:59:12.567 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.567 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 15:59:12.567 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 15:59:12.567 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE INFO  20180112 15:59:12.567 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 15:59:12.567 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.567 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 15:59:12.567 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 15:59:12.567 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 15:59:12.567 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 15:59:12.568 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.568 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 15:59:12.568 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 15:59:12.568 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE INFO  20180112 15:59:12.568 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 15:59:12.568 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.568 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 15:59:12.568 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 15:59:12.569 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE INFO  20180112 15:59:12.569 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 15:59:12.569 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.569 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 15:59:12.569 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 15:59:12.569 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE DEBUG 20180112 15:59:12.569 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE INFO  20180112 15:59:12.569 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 15:59:12.569 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 15:59:12.569 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 15:59:12.569 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 15:59:12.569 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 15:59:12.569 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 15:59:12.570 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 15:59:12.570 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 15:59:12.570 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180112 15:59:12.570 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE INFO  20180112 15:59:12.570 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 15:59:12.570 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 15:59:12.570 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 15:59:12.570 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE DEBUG 20180112 15:59:12.570 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE INFO  20180112 15:59:12.570 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 15:59:12.570 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 15:59:12.571 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 15:59:12.571 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 15:59:12.571 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 15:59:12.571 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 15:59:12.571 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 15:59:12.571 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 15:59:12.571 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 15:59:12.571 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 15:59:12.571 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 15:59:12.572 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 15:59:12.572 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 15:59:13.078 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:13.079 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:13.079 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:13.079 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:13.369 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:13.370 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:13.370 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:13.370 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:13.655 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:13.655 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:13.655 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:13.655 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:13.931 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:13.931 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:13.931 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:13.931 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:14.209 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:14.209 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:14.210 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:14.210 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:14.486 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:14.486 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:14.487 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:14.487 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:14.761 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:14.762 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:14.762 CoinStatusCollector QTUM result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:14.762 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:15.058 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:15.058 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:15.059 CoinStatusCollector EOS result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:15.059 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:15.344 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:15.345 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:15.345 CoinStatusCollector DASH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:15.345 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:15.623 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:15.624 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:15.624 CoinStatusCollector ETC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:15.624 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:15.897 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:15.898 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:15.898 CoinStatusCollector BTG result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:15.898 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 15:59:16.175 RestfulConnector response status : 429
+FILE DEBUG 20180112 15:59:16.175 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 15:59:16.175 CoinStatusCollector BTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 15:59:16.176 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:11.508 App coin_core start
+FILE INFO  20180112 16:00:11.535 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 16:00:11.539 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 16:00:11.550 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 16:00:11.732 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 16:00:11.734 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:00:11.735 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 16:00:11.735 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 16:00:11.735 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:00:11.735 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 16:00:11.735 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 16:00:11.736 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 16:00:11.740 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 16:00:11.742 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.742 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 16:00:11.742 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 16:00:11.743 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 16:00:11.743 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 16:00:11.743 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 16:00:11.743 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 16:00:11.743 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 16:00:11.743 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE INFO  20180112 16:00:11.743 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 16:00:11.743 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.743 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 16:00:11.743 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 16:00:11.744 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE INFO  20180112 16:00:11.744 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 16:00:11.744 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.744 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 16:00:11.744 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 16:00:11.744 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 16:00:11.744 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 16:00:11.747 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.747 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 16:00:11.747 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 16:00:11.747 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE INFO  20180112 16:00:11.747 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 16:00:11.747 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.747 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 16:00:11.747 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 16:00:11.748 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE INFO  20180112 16:00:11.748 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 16:00:11.748 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.748 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 16:00:11.748 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 16:00:11.748 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE INFO  20180112 16:00:11.748 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 16:00:11.748 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.748 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 16:00:11.748 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 16:00:11.749 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 16:00:11.749 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 16:00:11.749 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.749 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 16:00:11.749 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 16:00:11.749 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE INFO  20180112 16:00:11.749 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 16:00:11.749 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.749 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 16:00:11.749 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 16:00:11.750 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 16:00:11.750 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 16:00:11.750 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 16:00:11.750 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 16:00:11.750 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 16:00:11.750 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 16:00:11.750 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 16:00:11.750 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 16:00:11.750 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 16:00:11.751 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 16:00:11.751 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 16:00:11.751 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 16:00:11.751 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 16:00:11.751 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 16:00:11.751 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 16:00:12.250 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:12.250 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:12.251 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:12.251 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:12.566 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:12.567 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:12.567 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:12.567 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:12.867 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:12.867 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:12.867 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:12.867 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:13.172 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:13.173 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:13.173 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:13.173 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:13.476 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:13.476 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:13.476 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:13.476 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:13.749 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:13.750 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:13.750 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:13.750 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:14.027 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:14.027 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:14.028 CoinStatusCollector QTUM result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:14.028 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:14.305 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:14.305 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:14.305 CoinStatusCollector EOS result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:14.305 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:14.610 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:14.610 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:14.610 CoinStatusCollector DASH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:14.610 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:14.894 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:14.894 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:14.894 CoinStatusCollector ETC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:14.894 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:15.193 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:15.194 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:15.194 CoinStatusCollector BTG result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:15.194 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:15.478 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:15.478 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:15.478 CoinStatusCollector BTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:15.478 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:21.394 App coin_core start
+FILE INFO  20180112 16:00:21.430 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 16:00:21.434 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 16:00:21.444 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 16:00:21.653 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 16:00:21.655 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:00:21.656 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 16:00:21.656 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 16:00:21.657 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:00:21.657 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 16:00:21.657 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 16:00:21.657 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 16:00:21.662 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 16:00:21.663 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.664 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 16:00:21.665 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 16:00:21.666 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE INFO  20180112 16:00:21.666 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 16:00:21.666 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.666 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 16:00:21.666 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 16:00:21.666 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE DEBUG 20180112 16:00:21.666 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE INFO  20180112 16:00:21.666 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 16:00:21.666 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 16:00:21.666 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 16:00:21.667 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE INFO  20180112 16:00:21.667 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 16:00:21.667 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.667 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 16:00:21.667 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 16:00:21.667 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 16:00:21.667 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 16:00:21.667 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.667 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 16:00:21.667 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 16:00:21.668 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE INFO  20180112 16:00:21.668 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 16:00:21.668 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.668 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 16:00:21.668 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 16:00:21.668 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE DEBUG 20180112 16:00:21.668 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE INFO  20180112 16:00:21.668 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 16:00:21.668 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 16:00:21.668 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 16:00:21.669 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE INFO  20180112 16:00:21.669 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 16:00:21.669 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.669 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 16:00:21.669 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 16:00:21.669 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 16:00:21.669 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 16:00:21.669 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.669 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 16:00:21.669 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 16:00:21.670 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE INFO  20180112 16:00:21.670 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 16:00:21.670 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.670 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 16:00:21.670 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 16:00:21.670 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 16:00:21.670 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 16:00:21.670 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 16:00:21.671 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 16:00:21.671 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 16:00:21.671 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE DEBUG 20180112 16:00:21.671 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE INFO  20180112 16:00:21.671 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 16:00:21.671 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 16:00:21.671 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 16:00:21.671 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 16:00:21.671 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 16:00:21.672 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 16:00:21.672 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 16:00:21.672 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 16:00:22.221 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:22.221 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:22.222 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:22.222 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:22.534 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:22.534 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:22.534 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:22.534 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:22.828 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:22.828 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:22.829 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:22.829 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:23.133 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:23.133 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:23.133 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:23.134 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:23.427 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:23.428 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:23.428 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:23.428 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:23.705 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:23.706 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:23.706 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:23.706 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:23.985 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:23.985 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:23.985 CoinStatusCollector QTUM result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:23.985 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:24.277 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:24.278 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:24.278 CoinStatusCollector EOS result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:24.278 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:24.568 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:24.568 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:24.569 CoinStatusCollector DASH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:24.569 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:24.844 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:24.845 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:24.845 CoinStatusCollector ETC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:24.845 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:25.151 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:25.152 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:25.152 CoinStatusCollector BTG result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:25.152 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:00:25.452 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:00:25.453 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:00:25.453 CoinStatusCollector BTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:00:25.453 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:08.225 App coin_core start
+FILE INFO  20180112 16:06:08.259 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180112 16:06:08.265 CoinMarketManager CoinMarketManager start
+FILE INFO  20180112 16:06:08.276 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180112 16:06:08.498 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180112 16:06:08.500 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:06:08.502 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180112 16:06:08.502 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180112 16:06:08.502 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180112 16:06:08.502 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180112 16:06:08.502 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180112 16:06:08.502 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180112 16:06:08.510 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180112 16:06:08.511 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.512 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180112 16:06:08.513 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180112 16:06:08.513 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180112 16:06:08.513 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180112 16:06:08.513 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180112 16:06:08.513 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180112 16:06:08.513 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180112 16:06:08.513 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE INFO  20180112 16:06:08.513 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180112 16:06:08.513 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.514 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180112 16:06:08.514 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180112 16:06:08.514 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE INFO  20180112 16:06:08.514 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180112 16:06:08.514 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.514 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180112 16:06:08.514 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180112 16:06:08.514 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180112 16:06:08.514 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180112 16:06:08.514 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.515 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180112 16:06:08.515 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180112 16:06:08.515 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE INFO  20180112 16:06:08.515 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180112 16:06:08.515 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.515 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180112 16:06:08.515 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180112 16:06:08.515 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE INFO  20180112 16:06:08.515 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180112 16:06:08.515 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.516 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180112 16:06:08.516 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180112 16:06:08.516 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE DEBUG 20180112 16:06:08.516 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE INFO  20180112 16:06:08.516 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180112 16:06:08.516 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180112 16:06:08.517 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180112 16:06:08.517 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE INFO  20180112 16:06:08.517 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180112 16:06:08.517 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.517 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180112 16:06:08.517 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180112 16:06:08.517 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180112 16:06:08.517 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE INFO  20180112 16:06:08.517 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180112 16:06:08.517 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180112 16:06:08.517 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180112 16:06:08.518 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE INFO  20180112 16:06:08.518 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180112 16:06:08.518 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.518 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180112 16:06:08.518 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180112 16:06:08.518 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE INFO  20180112 16:06:08.518 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180112 16:06:08.518 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE DEBUG 20180112 16:06:08.518 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180112 16:06:08.519 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180112 16:06:08.519 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180112 16:06:08.519 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180112 16:06:08.519 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180112 16:06:08.519 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180112 16:06:08.519 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180112 16:06:09.026 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:09.026 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:09.026 CoinStatusCollector LTC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:09.026 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:10.136 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:10.136 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:10.136 CoinStatusCollector XMR result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:10.136 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:11.216 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:11.216 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:11.217 CoinStatusCollector XRP result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:11.217 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:12.297 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:12.297 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:12.297 CoinStatusCollector BCH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:12.297 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:13.385 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:13.385 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:13.385 CoinStatusCollector ZEC result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:13.385 CoinStatusCollector status is not ok
+FILE DEBUG 20180112 16:06:14.469 RestfulConnector response status : 429
+FILE DEBUG 20180112 16:06:14.470 RestfulConnector response body : {"status": "5600", "message": "too many connections"}
+FILE DEBUG 20180112 16:06:14.470 CoinStatusCollector ETH result : {"message":"too many connections","status":"5600"}
+FILE ERROR 20180112 16:06:14.470 CoinStatusCollector status is not ok
+FILE DEBUG 20180113 00:44:32.739 App coin_core start
+FILE INFO  20180113 00:44:32.769 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180113 00:44:32.772 CoinMarketManager CoinMarketManager start
+FILE INFO  20180113 00:44:32.782 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180113 00:44:32.941 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180113 00:44:32.943 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180113 00:44:32.945 ApiClientManager korbit's ApiClient is created.
+FILE INFO  20180113 00:44:32.945 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180113 00:44:32.945 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180113 00:44:32.945 ApiClientManager coinone's ApiClient is created.
+FILE INFO  20180113 00:44:32.945 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180113 00:44:32.945 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180113 00:44:32.952 CoinDecisionMaker bithumb-BTC's decision maker is start.
+FILE DEBUG 20180113 00:44:32.953 BithumbCoinChecker bithumb-BTC's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.954 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180113 00:44:32.954 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180113 00:44:32.954 CoinDecisionMaker bithumb-ETH's decision maker is start.
+FILE DEBUG 20180113 00:44:32.954 BithumbCoinChecker bithumb-ETH's current status is CHECKING
+FILE INFO  20180113 00:44:32.954 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180113 00:44:32.954 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180113 00:44:32.954 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180113 00:44:32.954 CoinDecisionMaker bithumb-DASH's decision maker is start.
+FILE DEBUG 20180113 00:44:32.955 BithumbCoinChecker bithumb-DASH's current status is CHECKING
+FILE INFO  20180113 00:44:32.955 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180113 00:44:32.955 CoinDecisionMaker bithumb-LTC's decision maker is start.
+FILE DEBUG 20180113 00:44:32.955 BithumbCoinChecker bithumb-LTC's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE INFO  20180113 00:44:32.955 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180113 00:44:32.955 CoinDecisionMaker bithumb-ETC's decision maker is start.
+FILE INFO  20180113 00:44:32.955 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180113 00:44:32.955 BithumbCoinChecker bithumb-ETC's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180113 00:44:32.955 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180113 00:44:32.955 CoinDecisionMaker bithumb-XRP's decision maker is start.
+FILE DEBUG 20180113 00:44:32.956 BithumbCoinChecker bithumb-XRP's current status is CHECKING
+FILE INFO  20180113 00:44:32.956 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180113 00:44:32.956 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180113 00:44:32.956 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180113 00:44:32.956 CoinDecisionMaker bithumb-BCH's decision maker is start.
+FILE DEBUG 20180113 00:44:32.956 BithumbCoinChecker bithumb-BCH's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.956 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE INFO  20180113 00:44:32.956 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180113 00:44:32.956 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180113 00:44:32.956 CoinDecisionMaker bithumb-XMR's decision maker is start.
+FILE DEBUG 20180113 00:44:32.956 BithumbCoinChecker bithumb-XMR's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.961 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180113 00:44:32.961 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180113 00:44:32.961 CoinDecisionMaker bithumb-ZEC's decision maker is start.
+FILE DEBUG 20180113 00:44:32.961 BithumbCoinChecker bithumb-ZEC's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.961 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180113 00:44:32.961 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180113 00:44:32.962 CoinDecisionMaker bithumb-QTUM's decision maker is start.
+FILE DEBUG 20180113 00:44:32.962 BithumbCoinChecker bithumb-QTUM's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.962 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180113 00:44:32.962 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE INFO  20180113 00:44:32.961 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180113 00:44:32.962 CoinDecisionMaker bithumb-BTG's decision maker is start.
+FILE DEBUG 20180113 00:44:32.962 BithumbCoinChecker bithumb-BTG's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.962 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180113 00:44:32.962 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180113 00:44:32.962 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180113 00:44:32.962 CoinDecisionMaker bithumb-EOS's decision maker is start.
+FILE INFO  20180113 00:44:32.962 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180113 00:44:32.962 BithumbCoinChecker bithumb-EOS's current status is CHECKING
+FILE DEBUG 20180113 00:44:32.962 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE INFO  20180113 00:44:32.962 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180113 00:44:32.963 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180113 00:44:32.963 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180113 00:44:32.963 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180113 00:44:32.963 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180113 00:44:32.963 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180113 00:44:32.963 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180113 00:44:32.963 CoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180113 00:44:33.566 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:33.566 RestfulConnector response body : {"status":"0000","data":{"opening_price":"327250","closing_price":"333300","min_price":"301000","max_price":"347800","average_price":"329740.4688","units_traded":"160705.39838499","volume_1day":"160705.39838499","volume_7day":"1895769.363238750000000000","buy_price":"333100","sell_price":"333300","date":"1515771873134"}}
+FILE DEBUG 20180113 00:44:33.566 CoinStatusCollector LTC result : {"data":{"opening_price":"327250","date":"1515771873134","max_price":"347800","min_price":"301000","units_traded":"160705.39838499","sell_price":"333300","average_price":"329740.4688","closing_price":"333300","volume_7day":"1895769.363238750000000000","buy_price":"333100","volume_1day":"160705.39838499"},"status":"0000"}
+FILE DEBUG 20180113 00:44:33.566 CoinDecisionMaker CoinDecisionMaker currency : LTC price : 333100
+FILE DEBUG 20180113 00:44:38.678 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:38.679 RestfulConnector response body : {"status":"0000","data":{"opening_price":"527100","closing_price":"531500","min_price":"478900","max_price":"553000","average_price":"519921.4208","units_traded":"99656.29894141","volume_1day":"99656.29894141","volume_7day":"1215809.057848490000000000","buy_price":"532000","sell_price":"533500","date":"1515771878228"}}
+FILE DEBUG 20180113 00:44:38.680 CoinStatusCollector XMR result : {"data":{"opening_price":"527100","date":"1515771878228","max_price":"553000","min_price":"478900","units_traded":"99656.29894141","sell_price":"533500","average_price":"519921.4208","closing_price":"531500","volume_7day":"1215809.057848490000000000","buy_price":"532000","volume_1day":"99656.29894141"},"status":"0000"}
+FILE DEBUG 20180113 00:44:38.680 CoinDecisionMaker CoinDecisionMaker currency : XMR price : 532000
+FILE DEBUG 20180113 00:44:43.764 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:43.765 RestfulConnector response body : {"status":"0000","data":{"opening_price":"2800","closing_price":"2836","min_price":"2480","max_price":"2999","average_price":"2824.2094","units_traded":"692641453.731698","volume_1day":"692641453.731698","volume_7day":"3235034003.821335000000000000","buy_price":"2836","sell_price":"2837","date":"1515771883338"}}
+FILE DEBUG 20180113 00:44:43.766 CoinStatusCollector XRP result : {"data":{"opening_price":"2800","date":"1515771883338","max_price":"2999","min_price":"2480","units_traded":"692641453.731698","sell_price":"2837","average_price":"2824.2094","closing_price":"2836","volume_7day":"3235034003.821335000000000000","buy_price":"2836","volume_1day":"692641453.731698"},"status":"0000"}
+FILE DEBUG 20180113 00:44:43.766 CoinDecisionMaker CoinDecisionMaker currency : XRP price : 2836
+FILE DEBUG 20180113 00:44:48.860 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:48.860 RestfulConnector response body : {"status":"0000","data":{"opening_price":"3654500","closing_price":"3682000","min_price":"3300000","max_price":"3785000","average_price":"3570575.4311","units_traded":"46780.27434399","volume_1day":"46780.27434399","volume_7day":"442012.971152800000000000","buy_price":"3680500","sell_price":"3682000","date":"1515771888431"}}
+FILE DEBUG 20180113 00:44:48.861 CoinStatusCollector BCH result : {"data":{"opening_price":"3654500","date":"1515771888431","max_price":"3785000","min_price":"3300000","units_traded":"46780.27434399","sell_price":"3682000","average_price":"3570575.4311","closing_price":"3682000","volume_7day":"442012.971152800000000000","buy_price":"3680500","volume_1day":"46780.27434399"},"status":"0000"}
+FILE DEBUG 20180113 00:44:48.861 CoinDecisionMaker CoinDecisionMaker currency : BCH price : 3680500
+FILE DEBUG 20180113 00:44:54.362 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:54.362 RestfulConnector response body : {"status":"0000","data":{"opening_price":"903600","closing_price":"972500","min_price":"862000","max_price":"1050000","average_price":"958996.1886","units_traded":"63056.35070493","volume_1day":"63056.35070493","volume_7day":"596116.147530470000000000","buy_price":"972300","sell_price":"972400","date":"1515771893901"}}
+FILE DEBUG 20180113 00:44:54.363 CoinStatusCollector ZEC result : {"data":{"opening_price":"903600","date":"1515771893901","max_price":"1050000","min_price":"862000","units_traded":"63056.35070493","sell_price":"972400","average_price":"958996.1886","closing_price":"972500","volume_7day":"596116.147530470000000000","buy_price":"972300","volume_1day":"63056.35070493"},"status":"0000"}
+FILE DEBUG 20180113 00:44:54.363 CoinDecisionMaker CoinDecisionMaker currency : ZEC price : 972300
+FILE DEBUG 20180113 00:44:59.436 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:44:59.437 RestfulConnector response body : {"status":"0000","data":{"opening_price":"1712900","closing_price":"1769900","min_price":"1520000","max_price":"1842700","average_price":"1704762.8846","units_traded":"389133.79628753220245646","volume_1day":"389133.79628753220245646","volume_7day":"2158991.885822941951688090","buy_price":"1765200","sell_price":"1767000","date":"1515771898999"}}
+FILE DEBUG 20180113 00:44:59.438 CoinStatusCollector ETH result : {"data":{"opening_price":"1712900","date":"1515771898999","max_price":"1842700","min_price":"1520000","units_traded":"389133.79628753220245646","sell_price":"1767000","average_price":"1704762.8846","closing_price":"1769900","volume_7day":"2158991.885822941951688090","buy_price":"1765200","volume_1day":"389133.79628753220245646"},"status":"0000"}
+FILE DEBUG 20180113 00:44:59.438 CoinDecisionMaker CoinDecisionMaker currency : ETH price : 1765200
+FILE DEBUG 20180113 00:45:04.522 RestfulConnector response status : 200
+FILE DEBUG 20180113 00:45:04.523 RestfulConnector response body : {"status":"0000","data":{"opening_price":"68680","closing_price":"70630","min_price":"60300","max_price":"73210","average_price":"68262.0988","units_traded":"5398351.86183196","volume_1day":"5398351.86183196","volume_7day":"50321304.268582450000000000","buy_price":"70570","sell_price":"70700","date":"1515771904072"}}
+FILE DEBUG 20180113 00:45:04.523 CoinStatusCollector QTUM result : {"data":{"opening_price":"68680","date":"1515771904072","max_price":"73210","min_price":"60300","units_traded":"5398351.86183196","sell_price":"70700","average_price":"68262.0988","closing_price":"70630","volume_7day":"50321304.268582450000000000","buy_price":"70570","volume_1day":"5398351.86183196"},"status":"0000"}
+FILE DEBUG 20180113 00:45:04.523 CoinDecisionMaker CoinDecisionMaker currency : QTUM price : 70570

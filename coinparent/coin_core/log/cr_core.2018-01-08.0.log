@@ -1,0 +1,250 @@
+FILE DEBUG 20180108 16:56:07.387 App coin_core start
+FILE DEBUG 20180108 17:22:31.962 App coin_core start
+FILE DEBUG 20180108 17:27:09.682 App coin_core start
+FILE DEBUG 20180108 17:27:09.684 CoinMarketManager CoinMarketManager start
+FILE ERROR 20180108 17:27:09.685 App The initialization of CoinMarketManager is failed.
+FILE DEBUG 20180108 20:30:07.650 App coin_core start
+FILE DEBUG 20180108 20:30:07.655 CoinMarketManager CoinMarketManager start
+FILE ERROR 20180108 20:30:07.655 CoinMarketManager There is no CoinMarket key-value in config file.
+FILE ERROR 20180108 20:30:07.655 App The initialization of CoinMarketManager is failed.
+FILE DEBUG 20180108 20:33:12.445 App coin_core start
+FILE INFO  20180108 20:33:12.482 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 20:33:12.486 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 20:33:12.492 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE DEBUG 20180108 21:21:23.494 App coin_core start
+FILE INFO  20180108 21:21:23.523 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 21:21:23.527 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 21:21:23.536 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 21:21:23.720 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE INFO  20180108 21:21:23.720 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE INFO  20180108 21:21:23.720 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE DEBUG 20180108 21:40:05.184 App coin_core start
+FILE INFO  20180108 21:40:05.211 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 21:40:05.215 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 21:40:05.224 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 21:40:05.405 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE INFO  20180108 21:40:05.405 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE INFO  20180108 21:40:05.405 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE DEBUG 20180108 21:51:28.614 App coin_core start
+FILE INFO  20180108 21:51:28.643 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 21:51:28.647 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 21:51:28.656 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 21:51:28.835 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE INFO  20180108 21:51:28.836 CoinMarket korbit's supported coin : {"bithumb":["BTC","ETH","DASH","LTC","ETC","XRP","BCH","XMR","ZEC","QTUM","BTG","EOS","ALL"]}
+FILE INFO  20180108 21:51:28.836 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE INFO  20180108 21:51:28.837 CoinMarket coinone's supported coin : {"bithumb":["BTC","ETH","DASH","LTC","ETC","XRP","BCH","XMR","ZEC","QTUM","BTG","EOS","ALL"]}
+FILE INFO  20180108 21:51:28.837 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 21:51:28.837 CoinMarket bithumb's supported coin : {"bithumb":["BTC","ETH","DASH","LTC","ETC","XRP","BCH","XMR","ZEC","QTUM","BTG","EOS","ALL"]}
+FILE DEBUG 20180108 22:02:17.972 App coin_core start
+FILE INFO  20180108 22:02:18.004 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 22:02:18.008 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:02:18.017 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:02:18.197 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:02:18.199 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:02:18.199 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:02:18.200 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:02:18.200 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:02:18.201 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS, ALL]
+FILE DEBUG 20180108 22:43:12.308 App coin_core start
+FILE INFO  20180108 22:43:12.338 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 22:43:12.342 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:43:12.352 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:43:12.531 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:43:12.533 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:43:12.533 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:43:12.533 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:43:12.534 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:43:12.534 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS, ALL]
+FILE DEBUG 20180108 22:43:12.535 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE INFO  20180108 22:43:12.536 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE INFO  20180108 22:43:12.536 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE INFO  20180108 22:43:12.536 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.536 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180108 22:43:12.537 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180108 22:43:12.537 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE INFO  20180108 22:43:12.537 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180108 22:43:12.537 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.537 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180108 22:43:12.538 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE INFO  20180108 22:43:12.538 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.538 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180108 22:43:12.538 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE INFO  20180108 22:43:12.538 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.538 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180108 22:43:12.538 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE INFO  20180108 22:43:12.538 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.539 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180108 22:43:12.539 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE INFO  20180108 22:43:12.539 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:43:12.539 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180108 22:43:12.539 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180108 22:43:12.539 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180108 22:43:12.539 BithumbCoinChecker BithumbCoinChecker is running
+FILE INFO  20180108 22:43:12.539 BithumbCoinChecker BithumbCoinChecker is running
+FILE DEBUG 20180108 22:47:24.633 App coin_core start
+FILE INFO  20180108 22:47:24.662 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 22:47:24.665 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:47:24.674 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:47:24.850 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:47:24.852 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:47:24.852 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:47:24.852 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:47:24.852 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:47:24.853 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS, ALL]
+FILE DEBUG 20180108 22:47:24.854 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE INFO  20180108 22:47:24.855 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE INFO  20180108 22:47:24.855 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180108 22:47:24.855 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE INFO  20180108 22:47:24.855 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180108 22:47:24.856 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE INFO  20180108 22:47:24.856 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE INFO  20180108 22:47:24.856 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180108 22:47:24.856 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.856 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE INFO  20180108 22:47:24.857 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE INFO  20180108 22:47:24.857 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE INFO  20180108 22:47:24.857 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.857 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180108 22:47:24.858 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE INFO  20180108 22:47:24.858 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:47:24.858 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180108 22:47:24.858 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE DEBUG 20180108 22:47:24.858 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180108 22:47:24.858 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE INFO  20180108 22:47:24.858 BithumbCoinChecker BithumbCoinChecker for { "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] } is running
+FILE DEBUG 20180108 22:48:33.785 App coin_core start
+FILE INFO  20180108 22:48:33.820 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 22:48:33.825 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:48:33.838 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:48:34.058 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:48:34.060 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:48:34.060 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:48:34.061 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:48:34.061 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:48:49.372 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS, ALL]
+FILE DEBUG 20180108 22:49:37.644 App coin_core start
+FILE INFO  20180108 22:49:37.680 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS", "ALL" ] }}
+FILE DEBUG 20180108 22:49:37.684 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:49:37.696 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:49:37.878 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:49:37.880 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:49:37.880 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:49:37.880 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:49:37.880 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:49:37.880 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS, ALL]
+FILE DEBUG 20180108 22:49:37.882 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE INFO  20180108 22:49:37.883 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE INFO  20180108 22:49:37.883 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE INFO  20180108 22:49:37.883 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180108 22:49:37.883 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180108 22:49:37.884 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180108 22:49:37.884 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180108 22:49:37.884 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180108 22:49:37.884 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180108 22:49:37.884 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180108 22:49:37.884 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180108 22:49:37.884 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180108 22:49:37.885 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE INFO  20180108 22:49:37.885 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180108 22:49:37.885 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180108 22:49:37.885 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180108 22:49:37.885 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180108 22:49:37.885 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE INFO  20180108 22:49:37.885 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE INFO  20180108 22:49:37.886 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE INFO  20180108 22:49:37.886 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE INFO  20180108 22:49:37.886 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180108 22:49:37.886 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE DEBUG 20180108 22:49:37.887 ManagedThreadFactory ManagedThreadFactory.getThread() id=27
+FILE INFO  20180108 22:49:37.887 BithumbCoinChecker BithumbCoinChecker for EOS is running
+FILE DEBUG 20180108 22:49:37.887 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=27
+FILE INFO  20180108 22:49:37.887 BithumbCoinChecker BithumbCoinChecker for ALL is running
+FILE DEBUG 20180108 22:50:08.418 App coin_core start
+FILE INFO  20180108 22:50:08.447 ConfigManager {configs.coinmarket={ "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.cointype={ "bithumb" : [ "BTC", "ETH", "DASH", "LTC", "ETC", "XRP", "BCH", "XMR", "ZEC", "QTUM", "BTG", "EOS" ] }}
+FILE DEBUG 20180108 22:50:08.451 CoinMarketManager CoinMarketManager start
+FILE INFO  20180108 22:50:08.461 CoinMarketManager markets = {"korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180108 22:50:08.639 CoinMarket korbit Coin Market is created. host url : https://api.korbit.co.kr
+FILE ERROR 20180108 22:50:08.641 CoinMarket korbit this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:50:08.641 CoinMarket coinone Coin Market is created. host url : https://api.coinone.co.kr
+FILE ERROR 20180108 22:50:08.641 CoinMarket coinone this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE INFO  20180108 22:50:08.642 CoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180108 22:50:08.642 CoinMarket bithumb's supported coin : [BTC, ETH, DASH, LTC, ETC, XRP, BCH, XMR, ZEC, QTUM, BTG, EOS]
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE INFO  20180108 22:50:08.644 BithumbCoinChecker BithumbCoinChecker for BTC is running
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE INFO  20180108 22:50:08.644 BithumbCoinChecker BithumbCoinChecker for ETH is running
+FILE DEBUG 20180108 22:50:08.644 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE INFO  20180108 22:50:08.645 BithumbCoinChecker BithumbCoinChecker for DASH is running
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180108 22:50:08.645 BithumbCoinChecker BithumbCoinChecker for LTC is running
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180108 22:50:08.645 BithumbCoinChecker BithumbCoinChecker for ETC is running
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180108 22:50:08.645 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE INFO  20180108 22:50:08.645 BithumbCoinChecker BithumbCoinChecker for XRP is running
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180108 22:50:08.646 BithumbCoinChecker BithumbCoinChecker for BCH is running
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE INFO  20180108 22:50:08.646 BithumbCoinChecker BithumbCoinChecker for XMR is running
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE INFO  20180108 22:50:08.646 BithumbCoinChecker BithumbCoinChecker for ZEC is running
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE INFO  20180108 22:50:08.646 BithumbCoinChecker BithumbCoinChecker for QTUM is running
+FILE DEBUG 20180108 22:50:08.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180108 22:50:08.647 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE INFO  20180108 22:50:08.647 BithumbCoinChecker BithumbCoinChecker for BTG is running
+FILE DEBUG 20180108 22:50:08.647 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180108 22:50:08.647 BithumbCoinChecker BithumbCoinChecker for EOS is running

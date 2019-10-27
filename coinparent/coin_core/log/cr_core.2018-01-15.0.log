@@ -1,0 +1,806 @@
+FILE DEBUG 20180114 22:14:31.937 App coin_core start
+FILE INFO  20180114 22:14:32.156 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180114 22:14:32.160 CoinMarketManager CoinMarketManager start
+FILE INFO  20180114 22:14:32.168 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180114 22:14:32.338 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180114 22:14:32.344 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180114 22:19:06.930 App coin_core start
+FILE INFO  20180114 22:19:06.963 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180114 22:19:06.968 CoinMarketManager CoinMarketManager start
+FILE INFO  20180114 22:19:06.977 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180114 22:19:07.154 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180114 22:19:07.161 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 00:53:27.885 App coin_core start
+FILE INFO  20180115 00:53:27.949 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 00:53:27.953 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 00:53:27.961 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 00:53:28.110 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 00:53:28.114 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 00:53:28.121 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.121 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:53:28.141 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180115 00:53:28.141 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180115 00:53:28.141 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.141 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:53:28.141 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE INFO  20180115 00:53:28.141 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 00:53:28.141 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180115 00:53:28.142 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.142 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE INFO  20180115 00:53:28.142 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 00:53:28.142 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180115 00:53:28.143 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180115 00:53:28.144 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.144 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 00:53:28.144 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 00:53:28.144 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.144 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180115 00:53:28.144 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 00:53:28.144 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.144 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180115 00:53:28.144 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 00:53:28.144 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 00:53:28.144 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.145 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE INFO  20180115 00:53:28.145 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 00:53:28.145 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:53:28.145 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 00:53:28.145 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 00:53:28.145 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 00:53:28.147 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 00:53:28.147 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 00:53:28.148 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 00:53:28.148 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180115 00:53:28.194 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE INFO  20180115 00:53:28.194 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 00:54:37.395 App coin_core start
+FILE INFO  20180115 00:54:37.426 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 00:54:37.430 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 00:54:37.439 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 00:54:37.607 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 00:54:37.615 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 00:54:43.291 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.291 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.294 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 00:54:43.294 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 00:54:43.294 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.294 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.294 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 00:54:43.295 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 00:54:43.295 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.296 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.296 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 00:54:43.296 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 00:54:43.297 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.297 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.297 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 00:54:43.297 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 00:54:43.297 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.297 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.297 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 00:54:43.297 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 00:54:43.298 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.298 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.298 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 00:54:43.298 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 00:54:43.294 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 00:54:43.298 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.298 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.298 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 00:54:43.299 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE INFO  20180115 00:54:43.299 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 00:54:43.300 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:54:43.300 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:54:43.301 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 00:54:43.319 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180115 00:54:43.319 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE INFO  20180115 00:54:43.299 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE INFO  20180115 00:54:43.300 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE INFO  20180115 00:54:43.300 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE INFO  20180115 00:54:43.323 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE INFO  20180115 00:54:43.326 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 00:54:43.337 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 00:54:43.337 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 00:54:43.338 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 00:54:43.341 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 00:54:43.342 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 00:54:43.343 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 00:54:43.343 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 00:59:21.626 App coin_core start
+FILE INFO  20180115 00:59:21.660 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 00:59:21.665 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 00:59:21.673 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 00:59:21.850 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 00:59:40.864 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 00:59:42.498 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:42.501 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:42.512 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 00:59:42.515 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE INFO  20180115 00:59:42.518 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 00:59:43.752 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:43.756 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:43.759 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 00:59:43.762 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE INFO  20180115 00:59:43.765 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 00:59:44.842 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:44.846 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:44.849 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 00:59:44.852 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE INFO  20180115 00:59:44.856 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 00:59:45.854 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:45.858 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:45.861 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 00:59:45.864 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE INFO  20180115 00:59:45.867 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 00:59:46.876 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:46.879 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:46.883 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 00:59:46.886 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE INFO  20180115 00:59:46.889 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 00:59:48.057 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:48.061 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:48.066 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 00:59:48.069 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 00:59:48.077 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 00:59:49.103 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:49.107 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:49.110 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 00:59:49.113 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE INFO  20180115 00:59:49.116 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 00:59:50.108 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 00:59:50.112 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 00:59:50.115 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 00:59:50.118 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180115 00:59:50.121 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:00:12.872 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:00:12.876 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:00:18.341 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:00:23.474 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:00:23.475 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:00:23.477 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:00:23.478 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:01:08.670 App coin_core start
+FILE INFO  20180115 01:01:08.700 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:01:08.704 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:01:08.712 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:01:08.882 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:01:08.891 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:01:08.899 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.899 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.900 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:01:08.900 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:01:08.900 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.901 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.901 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:01:08.901 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:01:08.901 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.901 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.901 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180115 01:01:08.901 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:01:08.901 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:01:08.902 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.902 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 01:01:08.904 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE INFO  20180115 01:01:08.904 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:01:08.902 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:01:08.905 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:01:08.905 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.906 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.906 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:01:08.906 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE INFO  20180115 01:01:08.906 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:01:08.907 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.907 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.907 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:01:08.907 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:01:08.907 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.907 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.907 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:01:08.908 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:01:08.908 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:01:08.908 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:01:08.908 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:01:08.908 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180115 01:01:08.909 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE INFO  20180115 01:01:08.915 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE INFO  20180115 01:01:08.916 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE INFO  20180115 01:01:08.917 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:01:08.923 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:01:08.923 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:01:08.923 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:01:08.926 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:01:08.927 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:01:08.928 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:01:08.928 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:23:44.293 App coin_core start
+FILE INFO  20180115 01:23:44.318 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:23:44.321 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:23:44.328 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:23:44.484 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:23:44.489 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:23:44.494 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:23:44.494 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.496 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180115 01:23:44.496 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180115 01:23:44.496 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:23:44.496 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE INFO  20180115 01:23:44.496 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:23:44.496 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180115 01:23:44.496 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180115 01:23:44.496 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:23:44.496 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.497 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180115 01:23:44.497 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE INFO  20180115 01:23:44.497 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:23:44.497 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE INFO  20180115 01:23:44.497 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:23:44.497 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:23:44.499 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:23:44.499 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE INFO  20180115 01:23:44.499 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:23:44.499 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:23:44.499 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:23:44.499 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE INFO  20180115 01:23:44.499 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:23:44.500 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE INFO  20180115 01:23:44.500 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:23:44.500 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.500 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:23:44.500 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:23:44.500 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE INFO  20180115 01:23:44.504 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:23:44.504 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:23:44.505 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:23:44.505 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:23:44.505 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:23:44.505 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 01:23:44.506 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE INFO  20180115 01:23:44.506 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:23:44.507 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE DEBUG 20180115 01:23:44.507 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:23:44.507 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:23:44.508 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:23:44.508 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:23:50.925 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:23:50.925 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/BTC-KRWticker</pre>
+</body>
+</html>
+
+FILE ERROR 20180115 01:23:50.925 RestfulConnector ParseException was occurred while parsing response.Unexpected character (<) at position 0.
+FILE DEBUG 20180115 01:23:55.967 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:23:55.967 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/ENG-KRWticker</pre>
+</body>
+</html>
+
+FILE ERROR 20180115 01:23:55.967 RestfulConnector ParseException was occurred while parsing response.Unexpected character (<) at position 0.
+FILE DEBUG 20180115 01:25:00.410 App coin_core start
+FILE INFO  20180115 01:25:00.442 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:25:00.445 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:25:00.453 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:25:00.623 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:25:00.631 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:25:00.638 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.638 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.640 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:25:00.640 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:25:00.640 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.640 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.640 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180115 01:25:00.640 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:25:00.640 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:25:00.640 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.641 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.641 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE INFO  20180115 01:25:00.641 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:25:00.641 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:25:00.641 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.641 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 01:25:00.642 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:25:00.644 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:25:00.644 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:25:00.644 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.644 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.644 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180115 01:25:00.644 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:25:00.644 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:25:00.645 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.645 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE INFO  20180115 01:25:00.645 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:25:00.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:25:00.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:25:00.646 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.646 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.646 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:25:00.646 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:25:00.647 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:25:00.647 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:25:00.647 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:25:00.647 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180115 01:25:00.663 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE INFO  20180115 01:25:00.663 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE INFO  20180115 01:25:00.664 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:25:00.666 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:25:00.667 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:25:00.667 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:25:00.669 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:25:00.669 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:25:00.670 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:25:00.670 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:26:00.221 App coin_core start
+FILE INFO  20180115 01:26:00.252 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:26:00.256 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:26:00.263 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:26:00.433 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:26:00.443 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:26:00.449 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.450 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.451 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:26:00.452 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:26:00.452 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.452 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.452 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:26:00.452 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE INFO  20180115 01:26:00.452 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:26:00.452 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.453 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.453 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:26:00.453 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:26:00.453 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.453 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.453 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE INFO  20180115 01:26:00.455 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:26:00.456 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE INFO  20180115 01:26:00.454 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:26:00.459 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.459 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.459 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:26:00.459 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:26:00.459 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.460 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.460 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:26:00.460 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:26:00.460 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.460 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.460 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:26:00.460 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:26:00.460 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:00.461 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:00.461 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:26:00.461 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE INFO  20180115 01:26:00.462 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE INFO  20180115 01:26:00.470 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE INFO  20180115 01:26:00.463 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE INFO  20180115 01:26:00.471 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE INFO  20180115 01:26:00.472 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:26:00.477 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:26:00.478 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:26:00.478 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:26:00.480 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:26:00.480 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:26:00.481 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:26:00.481 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:26:49.691 App coin_core start
+FILE INFO  20180115 01:26:49.716 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:26:49.719 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:26:49.727 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:26:49.878 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:26:49.883 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:26:49.888 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.888 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180115 01:26:49.890 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.890 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE INFO  20180115 01:26:49.890 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180115 01:26:49.890 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.890 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180115 01:26:49.890 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE INFO  20180115 01:26:49.890 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:26:49.890 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.891 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 01:26:49.891 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:26:49.892 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:26:49.892 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:26:49.892 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.892 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE INFO  20180115 01:26:49.892 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:26:49.893 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.893 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE INFO  20180115 01:26:49.893 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:26:49.893 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.893 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE INFO  20180115 01:26:49.893 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:26:49.893 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:26:49.893 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:26:49.893 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE INFO  20180115 01:26:49.898 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:26:49.899 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:26:49.899 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:26:49.899 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:26:49.899 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 01:26:49.899 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE INFO  20180115 01:26:49.900 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:26:49.900 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE DEBUG 20180115 01:26:49.901 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:26:49.901 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:26:49.902 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:26:49.902 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:26:55.511 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:26:55.512 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/BTC-KRW/ticker</pre>
+</body>
+</html>
+
+FILE ERROR 20180115 01:26:55.512 RestfulConnector ParseException was occurred while parsing response.Unexpected character (<) at position 0.
+FILE DEBUG 20180115 01:27:08.387 App coin_core start
+FILE INFO  20180115 01:27:08.414 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:27:08.417 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:27:08.424 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:27:08.574 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:27:08.579 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:27:08.584 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.584 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:08.586 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180115 01:27:08.586 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180115 01:27:08.586 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.586 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE INFO  20180115 01:27:08.586 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:27:08.586 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180115 01:27:08.586 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180115 01:27:08.586 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE INFO  20180115 01:27:08.586 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:27:08.586 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:08.587 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180115 01:27:08.587 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180115 01:27:08.587 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.587 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 01:27:08.587 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:27:08.588 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:27:08.588 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:27:08.589 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE INFO  20180115 01:27:08.589 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:27:08.589 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:08.589 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:27:08.589 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:27:08.589 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.589 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:08.589 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:27:08.589 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE INFO  20180115 01:27:08.589 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:27:08.589 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.590 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE INFO  20180115 01:27:08.589 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:27:08.590 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:27:08.590 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:27:08.590 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:08.590 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:08.590 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE INFO  20180115 01:27:08.590 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:27:08.594 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:27:08.595 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:27:08.595 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 01:27:08.595 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE INFO  20180115 01:27:08.596 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:27:08.596 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE DEBUG 20180115 01:27:08.597 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:27:08.597 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:27:08.598 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:27:08.598 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:27:14.126 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:27:14.126 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/BTC-KRW/ticker</pre>
+</body>
+</html>
+
+FILE ERROR 20180115 01:27:14.126 RestfulConnector ParseException was occurred while parsing response.Unexpected character (<) at position 0.
+FILE DEBUG 20180115 01:27:21.110 App coin_core start
+FILE INFO  20180115 01:27:21.140 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:27:21.144 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:27:21.151 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:27:21.318 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:27:21.324 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:27:21.330 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:21.330 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.332 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:27:21.332 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:27:21.332 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:21.332 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.332 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:27:21.332 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE INFO  20180115 01:27:21.332 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:27:21.333 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:21.333 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.333 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:27:21.333 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:27:21.333 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE INFO  20180115 01:27:21.333 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:27:21.333 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.333 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:27:21.334 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:27:21.334 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:21.334 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.335 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:27:21.335 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:27:21.335 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:27:21.335 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.335 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:27:21.335 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:27:21.335 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE INFO  20180115 01:27:21.337 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE INFO  20180115 01:27:21.338 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE INFO  20180115 01:27:21.339 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE INFO  20180115 01:27:21.341 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:27:21.335 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.342 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:27:21.342 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:27:21.343 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE INFO  20180115 01:27:21.349 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:27:21.349 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:27:21.349 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:27:21.349 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180115 01:27:21.349 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:27:21.350 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:27:21.350 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:27:21.353 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:27:21.354 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE DEBUG 20180115 01:27:21.353 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE ERROR 20180115 01:27:21.355 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:27:21.356 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180115 01:27:21.357 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:29:51.399 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:29:59.782 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/BTC-KRW/ticker</pre>
+</body>
+</html>
+
+FILE DEBUG 20180115 01:32:37.631 App coin_core start
+FILE INFO  20180115 01:32:37.668 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:32:37.672 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:32:37.680 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:32:37.856 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:32:37.865 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:32:37.873 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.874 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.876 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:32:37.876 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:32:37.876 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.876 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.877 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:32:37.877 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:32:37.877 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.877 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.878 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:32:37.878 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE INFO  20180115 01:32:37.878 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:32:37.879 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.879 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.879 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:32:37.879 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:32:37.879 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.879 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.879 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:32:37.879 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:32:37.880 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.880 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.880 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:32:37.880 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:32:37.880 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.880 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.881 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:32:37.881 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:32:37.881 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:32:37.881 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:32:37.881 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:32:37.882 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180115 01:32:37.882 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:32:37.882 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:32:37.882 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE INFO  20180115 01:32:37.884 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:32:37.885 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:32:37.885 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE INFO  20180115 01:32:37.886 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE INFO  20180115 01:32:37.886 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE INFO  20180115 01:32:37.886 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE INFO  20180115 01:32:37.894 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE ERROR 20180115 01:32:37.895 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:32:37.895 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180115 01:32:37.896 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE INFO  20180115 01:32:37.898 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:35:21.423 App coin_core start
+FILE INFO  20180115 01:35:21.456 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:35:21.460 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:35:21.468 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:35:21.635 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:35:21.642 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:35:21.648 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.648 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.649 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:35:21.650 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:35:21.650 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.650 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.650 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE INFO  20180115 01:35:21.650 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:35:21.650 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:35:21.650 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.650 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.650 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:35:21.651 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:35:21.651 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.651 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE INFO  20180115 01:35:21.652 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE INFO  20180115 01:35:21.652 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:35:21.651 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:35:21.655 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:35:21.655 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE INFO  20180115 01:35:21.655 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:35:21.655 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.655 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:35:21.656 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:35:21.656 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.656 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.657 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE INFO  20180115 01:35:21.658 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:35:21.658 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE DEBUG 20180115 01:35:21.658 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.658 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.658 ManagedThreadFactory ManagedThreadFactory.getThread() id=24
+FILE DEBUG 20180115 01:35:21.658 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=24
+FILE DEBUG 20180115 01:35:21.659 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:35:21.659 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:35:21.659 ManagedThreadFactory ManagedThreadFactory.getThread() id=25
+FILE DEBUG 20180115 01:35:21.659 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=25
+FILE DEBUG 20180115 01:35:21.659 ManagedThreadFactory ManagedThreadFactory.getThread() id=26
+FILE DEBUG 20180115 01:35:21.665 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=26
+FILE INFO  20180115 01:35:21.666 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE INFO  20180115 01:35:21.667 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE INFO  20180115 01:35:21.668 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE INFO  20180115 01:35:21.669 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:35:21.670 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE DEBUG 20180115 01:35:21.671 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:35:21.671 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:35:21.672 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:35:21.673 ApiClientManager bithumb's ApiClient is created.
+FILE DEBUG 20180115 01:35:52.550 RestfulConnector response status : 404
+FILE DEBUG 20180115 01:35:53.221 RestfulConnector response body : <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /trading-pairs/BTC-KRW/ticker</pre>
+</body>
+</html>
+
+FILE DEBUG 20180115 01:38:49.715 App coin_core start
+FILE INFO  20180115 01:38:49.742 ConfigManager {configs.collectiondelaymilli=5000, configs.collectionintervalmilli=60000, configs.coinmarket={ "gopax" : "https://api.gopax.co.kr", "bithumb" : "https://api.bithumb.com", "korbit" : "https://api.korbit.co.kr", "coinone" : "https://api.coinone.co.kr" }, configs.connectkey={ "gopax" : { "api_key" : "f36e2e51-391c-42c0-8a0b-aabba597a123", "secret_key" : "Xb8rw4hp6YL3nTa7BKoNsOgWGupmz9D8qgCDTC4R5oXTSPifEOVJLu9mOme3l5l4wQeX+8WoAu/0oyWd/Llpvg==" }, "bithumb" : { "api_key" : "6f8caf27bd215b7b89f1234e3648798d", "secret_key" : "73e7918910fff318d18d3cd88a114406" } }, configs.cointype={ "gopax" : ["BTC-KRW", "ETH-KRW", "BCH-KRW", "XLM-KRW", "ZEC-KRW", "LTC-KRW", "ENG-KRW", "CVC-KRW"] }}
+FILE DEBUG 20180115 01:38:49.746 CoinMarketManager CoinMarketManager start
+FILE INFO  20180115 01:38:49.752 CoinMarketManager markets = {"gopax":"https:\/\/api.gopax.co.kr","korbit":"https:\/\/api.korbit.co.kr","coinone":"https:\/\/api.coinone.co.kr","bithumb":"https:\/\/api.bithumb.com"}
+FILE INFO  20180115 01:38:49.900 BithumbCoinMarket gopax Coin Market is created. host url : https://api.gopax.co.kr
+FILE INFO  20180115 01:38:49.905 BithumbCoinMarket gopax's supported coin : [BTC-KRW, ETH-KRW, BCH-KRW, XLM-KRW, ZEC-KRW, LTC-KRW, ENG-KRW, CVC-KRW]
+FILE DEBUG 20180115 01:38:49.910 CoinDecisionMaker gopax@BTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.910 GopaxCoinChecker gopax@BTC-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:38:49.911 ManagedThreadFactory ManagedThreadFactory.getThread() id=15
+FILE DEBUG 20180115 01:38:49.912 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=15
+FILE DEBUG 20180115 01:38:49.912 CoinDecisionMaker gopax@ETH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.912 GopaxCoinChecker gopax@ETH-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.912 GopaxCoinChecker GopaxCoinChecker for BTC-KRW is running
+FILE DEBUG 20180115 01:38:49.912 ManagedThreadFactory ManagedThreadFactory.getThread() id=16
+FILE DEBUG 20180115 01:38:49.912 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=16
+FILE DEBUG 20180115 01:38:49.912 CoinDecisionMaker gopax@BCH-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.912 GopaxCoinChecker gopax@BCH-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.912 GopaxCoinChecker GopaxCoinChecker for ETH-KRW is running
+FILE DEBUG 20180115 01:38:49.912 ManagedThreadFactory ManagedThreadFactory.getThread() id=17
+FILE DEBUG 20180115 01:38:49.912 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=17
+FILE DEBUG 20180115 01:38:49.912 CoinDecisionMaker gopax@XLM-KRW's decision maker is start.
+FILE INFO  20180115 01:38:49.913 GopaxCoinChecker GopaxCoinChecker for BCH-KRW is running
+FILE DEBUG 20180115 01:38:49.914 GopaxCoinChecker gopax@XLM-KRW's current status is CHECKING
+FILE DEBUG 20180115 01:38:49.914 ManagedThreadFactory ManagedThreadFactory.getThread() id=18
+FILE DEBUG 20180115 01:38:49.914 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=18
+FILE DEBUG 20180115 01:38:49.914 CoinDecisionMaker gopax@ZEC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.914 GopaxCoinChecker gopax@ZEC-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.914 GopaxCoinChecker GopaxCoinChecker for XLM-KRW is running
+FILE DEBUG 20180115 01:38:49.914 ManagedThreadFactory ManagedThreadFactory.getThread() id=19
+FILE DEBUG 20180115 01:38:49.915 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=19
+FILE DEBUG 20180115 01:38:49.915 CoinDecisionMaker gopax@LTC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.915 GopaxCoinChecker gopax@LTC-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.915 GopaxCoinChecker GopaxCoinChecker for ZEC-KRW is running
+FILE DEBUG 20180115 01:38:49.915 ManagedThreadFactory ManagedThreadFactory.getThread() id=20
+FILE DEBUG 20180115 01:38:49.915 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=20
+FILE DEBUG 20180115 01:38:49.915 CoinDecisionMaker gopax@ENG-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.915 GopaxCoinChecker gopax@ENG-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.915 GopaxCoinChecker GopaxCoinChecker for LTC-KRW is running
+FILE DEBUG 20180115 01:38:49.915 ManagedThreadFactory ManagedThreadFactory.getThread() id=21
+FILE DEBUG 20180115 01:38:49.915 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=21
+FILE DEBUG 20180115 01:38:49.915 CoinDecisionMaker gopax@CVC-KRW's decision maker is start.
+FILE DEBUG 20180115 01:38:49.915 GopaxCoinChecker gopax@CVC-KRW's current status is CHECKING
+FILE INFO  20180115 01:38:49.920 GopaxCoinChecker GopaxCoinChecker for ENG-KRW is running
+FILE DEBUG 20180115 01:38:49.920 ManagedThreadFactory ManagedThreadFactory.getThread() id=22
+FILE DEBUG 20180115 01:38:49.921 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=22
+FILE DEBUG 20180115 01:38:49.921 ManagedThreadFactory ManagedThreadFactory.getThread() id=23
+FILE DEBUG 20180115 01:38:49.921 ManagedThreadFactory ManagedThreadFactory.getThreadAndStart() id=23
+FILE INFO  20180115 01:38:49.921 BithumbCoinStatusCollector The Coin Stauts Collector is staring
+FILE DEBUG 20180115 01:38:49.923 ApiClientManager gopax's ApiClient is created.
+FILE INFO  20180115 01:38:49.923 BithumbCoinMarket bithumb Coin Market is created. host url : https://api.bithumb.com
+FILE ERROR 20180115 01:38:49.924 BithumbCoinMarket bithumb this coin maker is not initialized because there is no coin type in CoinType Json.
+FILE DEBUG 20180115 01:38:49.924 ApiClientManager bithumb's ApiClient is created.
+FILE INFO  20180115 01:38:49.925 GopaxCoinChecker GopaxCoinChecker for CVC-KRW is running
+FILE DEBUG 20180115 01:38:50.532 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:38:50.532 RestfulConnector response body : {"price":3600000,"ask":3440000,"bid":3530000,"volume":240.06362632,"time":"2018-01-14T16:36:23.180Z"}
+FILE DEBUG 20180115 01:38:50.532 BithumbCoinStatusCollector BCH-KRW result : {"volume":240.06362632,"price":3600000,"ask":3440000,"time":"2018-01-14T16:36:23.180Z","bid":3530000}
+FILE DEBUG 20180115 01:38:50.532 BithumbCoinStatusCollector exception is occurred while collecting gopax@BCH-KRW's status. 
+FILE DEBUG 20180115 01:38:55.581 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:38:55.581 RestfulConnector response body : {"price":19230000,"ask":18858000,"bid":19067000,"volume":142.17177912,"time":"2018-01-14T16:38:30.700Z"}
+FILE DEBUG 20180115 01:38:55.581 BithumbCoinStatusCollector BTC-KRW result : {"volume":142.17177912,"price":19230000,"ask":18858000,"time":"2018-01-14T16:38:30.700Z","bid":19067000}
+FILE DEBUG 20180115 01:38:55.581 BithumbCoinStatusCollector exception is occurred while collecting gopax@BTC-KRW's status. 
+FILE DEBUG 20180115 01:39:00.651 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:39:00.652 RestfulConnector response body : {"price":8260,"ask":8205,"bid":8300,"volume":128753.06490793,"time":"2018-01-14T16:36:03.853Z"}
+FILE DEBUG 20180115 01:39:00.653 BithumbCoinStatusCollector ENG-KRW result : {"volume":128753.06490793,"price":8260,"ask":8205,"time":"2018-01-14T16:36:03.853Z","bid":8300}
+FILE DEBUG 20180115 01:39:00.654 BithumbCoinStatusCollector exception is occurred while collecting gopax@ENG-KRW's status. 
+FILE DEBUG 20180115 01:39:05.724 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:39:05.725 RestfulConnector response body : {"price":1515,"ask":1460,"bid":1510,"volume":1369756.26833366,"time":"2018-01-14T16:38:30.785Z"}
+FILE DEBUG 20180115 01:39:05.726 BithumbCoinStatusCollector CVC-KRW result : {"volume":1369756.26833366,"price":1515,"ask":1460,"time":"2018-01-14T16:38:30.785Z","bid":1510}
+FILE DEBUG 20180115 01:39:05.727 BithumbCoinStatusCollector exception is occurred while collecting gopax@CVC-KRW's status. 
+FILE DEBUG 20180115 01:39:10.803 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:39:10.804 RestfulConnector response body : {"price":1830900,"ask":1798700,"bid":1830000,"volume":16173.3509037,"time":"2018-01-14T16:39:05.434Z"}
+FILE DEBUG 20180115 01:39:10.805 BithumbCoinStatusCollector ETH-KRW result : {"volume":16173.3509037,"price":1830900,"ask":1798700,"time":"2018-01-14T16:39:05.434Z","bid":1830000}
+FILE DEBUG 20180115 01:39:10.805 BithumbCoinStatusCollector exception is occurred while collecting gopax@ETH-KRW's status. 
+FILE DEBUG 20180115 01:39:15.876 RestfulConnector response status : 200
+FILE DEBUG 20180115 01:39:15.876 RestfulConnector response body : {"price":336000,"ask":320050,"bid":336000,"volume":2779.13796473,"time":"2018-01-14T16:38:53.948Z"}
+FILE DEBUG 20180115 01:39:15.877 BithumbCoinStatusCollector LTC-KRW result : {"volume":2779.13796473,"price":336000,"ask":320050,"time":"2018-01-14T16:38:53.948Z","bid":336000}
+FILE DEBUG 20180115 01:39:15.877 BithumbCoinStatusCollector exception is occurred while collecting gopax@LTC-KRW's status. 
